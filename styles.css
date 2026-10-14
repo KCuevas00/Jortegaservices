@@ -1564,20 +1564,20 @@ textarea {
     height: 72px;
     padding-left: 12px;
     padding-right: 12px;
-    gap: 8px;
+    gap: 6px;
     justify-content: space-between;
   }
 
   .brand-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     flex: 1;
     min-width: 0;
   }
 
   .brand-logo-img {
-    height: 52px;
+    height: clamp(44px, 11vw, 52px);
     width: auto;
     flex-shrink: 0;
   }
@@ -1585,22 +1585,31 @@ textarea {
   .brand-text {
     flex: 1;
     min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .brand-name {
-    font-size: clamp(1.05rem, 4.4vw, 1.3rem);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-size: clamp(0.96rem, 4.1vw, 1.25rem);
+    white-space: nowrap !important;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
     line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  .brand-name span {
+    white-space: nowrap !important;
   }
 
   .brand-tag {
-    font-size: clamp(0.68rem, 2.5vw, 0.74rem);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    letter-spacing: 0.02em;
+    font-size: clamp(0.62rem, 2.3vw, 0.72rem);
+    white-space: nowrap !important;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    display: block;
   }
 
   .mobile-toggle {
