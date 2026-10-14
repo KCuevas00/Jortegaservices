@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
               Thank you! J Ortega will review your project details and call you shortly to schedule your free on-site estimate.
             </p>
             <p style="font-size: 0.95rem; color: #0f172a; font-weight: 700;">
-              Need immediate service? Call <a href="tel:8155194979" style="color: #1d4ed8; text-decoration: underline;">(815) 519-4979</a>
+              Need immediate service? Call <a href="tel:6305978007" style="color: #1d4ed8; text-decoration: underline;">(630) 597-8007</a>
             </p>
           </div>
         `;
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (data.success) {
           showSuccess();
         } else {
-          alert('Submission error: ' + (data.message || 'Please call (815) 519-4979 directly.'));
+          alert('Submission error: ' + (data.message || 'Please call (630) 597-8007 directly.'));
           submitBtn.disabled = false;
           submitBtn.innerHTML = originalBtnText;
         }
