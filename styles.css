@@ -1428,14 +1428,68 @@ textarea {
     gap: 36px;
   }
   
-  .mobile-toggle {
-    display: block;
+  /* Mobile Navigation Spacing & Layout - Brand stretches smoothly without premature wrapping */
+  .nav-container {
+    height: 72px;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 8px;
+    justify-content: space-between;
   }
-  
+
+  .brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .brand-logo-img {
+    height: 52px;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .brand-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .brand-name {
+    font-size: clamp(1.05rem, 4.4vw, 1.3rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.15;
+  }
+
+  .brand-tag {
+    font-size: clamp(0.68rem, 2.5vw, 0.74rem);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.02em;
+  }
+
+  .mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 6px;
+    margin-left: 2px;
+  }
+
+  .mobile-toggle svg {
+    width: 28px;
+    height: 28px;
+  }
+
   .main-nav {
     display: none;
     position: absolute;
-    top: 84px;
+    top: 100%;
     left: 0;
     right: 0;
     background-color: #ffffff;
@@ -1445,7 +1499,7 @@ textarea {
     box-shadow: var(--shadow-lg);
     gap: 20px;
   }
-  
+
   .main-nav.open {
     display: flex;
   }
@@ -1499,6 +1553,21 @@ textarea {
 }
 
 @media (max-width: 480px) {
+  .nav-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 6px;
+    height: 68px;
+  }
+
+  .brand-logo {
+    gap: 8px;
+  }
+
+  .brand-logo-img {
+    height: 46px;
+  }
+
   .hero-slider-wrap {
     height: 320px;
   }
