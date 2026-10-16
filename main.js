@@ -1,125 +1,125 @@
-// J Ortega's Services - Core Client Interaction & Bilingual Engine (Spanish Default)
+// J Ortega's Services - Core Client Interaction & Bilingual Engine (Natural Spanish Default)
 
 const translations = {
   es: {
     // Top Bar
-    top_rating: "5.0 Reseñas en Google",
-    top_location: "Con base en Elgin, IL &bull; Sirviendo a Elgin y Áreas Cercanas en Illinois",
+    top_rating: "5.0 en Reseñas de Google",
+    top_location: "Basados en Elgin, IL &bull; Atendiendo Elgin y Zonas Cercanas",
     
     // Header & Nav
-    brand_tag: "Techado y Canaletas Sin Costuras",
+    brand_tag: "Techos y Canaletas Sin Costuras",
     nav_home: "Inicio",
     nav_services: "Servicios",
-    nav_why_us: "¿Por Qué Elegirnos?",
+    nav_why_us: "¿Por Qué Nosotros?",
     nav_gallery: "Galería",
     nav_reviews: "Reseñas",
     nav_contact: "Contacto",
-    btn_request_estimate: "Solicitar Presupuesto Gratis",
+    btn_request_estimate: "Estimado Gratis",
     
     // Hero Section
-    hero_title: "Soluciones Confiables de Techado y Canaletas Que Protegen Su Propiedad Todo el Año",
-    hero_lead: "Reemplazos de techos de alta calidad, reparación confiable de goteras y canaletas sin costuras hechas a la medida para residencias y comercios en Elgin, IL y comunidades cercanas.",
-    hero_feat_1: "Propiedad y Operación Local",
-    hero_feat_2: "Más de 10 Años de Experiencia",
-    hero_feat_3: "Inspecciones Gratis a Domicilio",
+    hero_title: "Techos y Canaletas de Calidad en Elgin y Alrededores",
+    hero_lead: "Instalación de techos nuevos, reparación de goteras y canaletas sin costuras hechas a la medida. Trabajo bien hecho y estimados gratis.",
+    hero_feat_1: "Negocio Local de Confianza",
+    hero_feat_2: "10+ Años de Experiencia",
+    hero_feat_3: "Estimados Gratis a Domicilio",
     
     // Services Section
-    services_title: "Nuestros Servicios",
-    services_lead: "Instalación profesional de techos y canaletas sin costuras diseñadas para resistir todas las estaciones en Illinois.",
-    svc1_title: "Instalación de Canaletas Sin Costuras",
-    svc1_desc: "Canaletas de aluminio de 5 y 6 pulgadas fabricadas a la medida en el lugar exacto de su propiedad para evitar filtraciones y desbordes.",
-    svc2_title: "Reemplazo de Techos y Nuevos Techos",
-    svc2_desc: "Retiro completo del techo viejo e instalación de tejas arquitectónicas con barrera impermeable sintética contra hielo y agua, y limpieza total.",
-    svc3_title: "Reparación de Techos y Detección de Goteras",
-    svc3_desc: "Reparación rápida de tejas dañadas por tormentas, tapajuntas de chimeneas, botas de tuberías y goteras antes de que dañen sus paredes.",
-    svc4_title: "Protectores de Hojas para Canaletas",
-    svc4_desc: "Mallas de aluminio de alta resistencia instaladas sobre las canaletas para bloquear hojas, agujas de pino y animales manteniendo el flujo de agua.",
-    svc5_title: "Limpieza de Canaletas y Bajantes",
-    svc5_desc: "Retiro completo de hojas y lodo acumulado, lavado de bajantes, ajuste de pendientes y refuerzo de clavos o soportes sueltos.",
+    services_title: "Servicios",
+    services_lead: "Instalación y reparación profesional de techos y canaletas resistentes al clima de Illinois.",
+    svc1_title: "Canaletas Sin Costuras",
+    svc1_desc: "Canaletas de aluminio de 5 y 6 pulgadas fabricadas a la medida en su casa. Evitan goteras y protegen los cimientos de su propiedad.",
+    svc2_title: "Techos Nuevos y Reemplazos",
+    svc2_desc: "Quitamos el techo viejo y ponemos tejas arquitectónicas nuevas con protección contra hielo y agua. Trabajo limpio y rápido.",
+    svc3_title: "Reparación de Techos y Goteras",
+    svc3_desc: "Arreglamos goteras, tejas sueltas o rotas por el viento, chimeneas y respiraderos antes de que dañen el interior de su casa.",
+    svc4_title: "Protectores para Canaletas",
+    svc4_desc: "Mallas protectoras de aluminio que evitan que se tapen las canaletas con hojas, ramas o nidos de pájaros.",
+    svc5_title: "Limpieza y Ajuste de Canaletas",
+    svc5_desc: "Limpiamos a fondo canaletas y bajadas de agua, ajustamos la caída para que corra bien el agua y apretamos soportes flojos.",
     svc6_title: "Reparación de Soffit y Fascia",
-    svc6_desc: "Reemplazo de maderas dañadas o podridas en aleros detrás de las canaletas, forrado de aluminio a la medida y paneles de ventilación del ático.",
+    svc6_desc: "Cambiamos madera podrida o dañada por la humedad detrás de las canaletas y forramos con aluminio para proteger su casa.",
     
     // Why Choose Us
     why_title: "¿Por Qué Elegirnos?",
-    why_lead: "Creemos en un trabajo honesto, confiable y directo, sin tácticas agresivas de venta ni rebajar la calidad de los materiales.",
-    why_item1_title: "Propiedad y Operación Local",
-    why_item1_desc: "Artesanía dedicada en techos y canaletas sirviendo con orgullo a Elgin y comunidades vecinas en Illinois.",
-    why_item2_title: "Supervisión Directa del Propietario",
-    why_item2_desc: "J Ortega supervisa personalmente cada obra para garantizar el clavado adecuado, la alineación de pendientes y un control estricto de calidad.",
-    why_item3_title: "Presupuestos Escritos y Claros",
-    why_item3_desc: "Precios detallados por partida, sin cargos ocultos, sorpresas ni órdenes de cambio imprevistas.",
-    why_item4_title: "Limpieza Minuciosa del Terreno",
-    why_item4_desc: "Barrido magnético completo en césped y estacionamiento para que no quede ningún clavo o residuo de metal.",
+    why_lead: "Trabajo bien hecho, trato directo y precios justos sin rodeos ni presiones.",
+    why_item1_title: "Negocio Local",
+    why_item1_desc: "Vivimos y trabajamos aquí en Elgin, atendiendo a nuestras comunidades vecinas en Illinois con orgullo.",
+    why_item2_title: "Atendido por el Dueño",
+    why_item2_desc: "J Ortega está presente y supervisa cada trabajo en persona para asegurar que todo quede bien hecho.",
+    why_item3_title: "Precios Claros y por Escrito",
+    why_item3_desc: "Le damos su estimado con precios claros desde el principio, sin sorpresas ni cobros extras inesperados.",
+    why_item4_title: "Dejamos Todo Limpio",
+    why_item4_desc: "Pasamos rodillo con imán por su jardín y entrada para que no quede ningún clavo tirado. Cuidamos su propiedad.",
     stat_experience: "Años de Experiencia",
-    stat_rating: "Calificación Google",
-    stat_estimates: "Presupuestos",
+    stat_rating: "en Google",
+    stat_estimates: "Estimados Gratis",
     
     // Reviews
     reviews_badge: "Reseñas en Google",
-    reviews_title: "Lo Que Dicen Nuestros Clientes",
-    reviews_lead: "Comentarios reales y verificados de propietarios de viviendas y negocios en Elgin y alrededores.",
-    rev1_text: "\"J Ortega reemplazó todo nuestro techo y canaletas después de una tormenta severa. Su equipo fue puntual, profesional y dejó nuestro patio impecable. ¡Muy recomendado!\"",
+    reviews_title: "Opiniones de Clientes",
+    reviews_lead: "Lo que opinan los clientes que han trabajado con nosotros en Elgin y alrededores.",
+    rev1_text: "\"J Ortega nos cambió todo el techo y las canaletas después de una tormenta fuerte. Llegaron a tiempo, muy amables y dejaron el patio limpiecito. 100% recomendado.\"",
     rev1_author: "Carlos M. &bull; Elgin, IL",
-    rev2_text: "\"Excelente trabajo instalando canaletas sin costuras y protectores de hojas en nuestra casa. Precios justos, presupuesto por escrito y terminaron en un solo día.\"",
+    rev2_text: "\"Muy buen trabajo con las canaletas sin costuras y las mallas protectoras. Precios razonables, todo por escrito y terminaron en un solo día.\"",
     rev2_author: "David R. &bull; St. Charles, IL",
-    rev3_text: "\"Teníamos una gotera difícil cerca de la chimenea que otros no lograban solucionar. J Ortega vino, encontró la causa de inmediato y la reparó a la perfección.\"",
+    rev3_text: "\"Teníamos una gotera en la chimenea que nadie podía arreglar. J Ortega vino, encontró el problema rápido y lo dejó como nuevo.\"",
     rev3_author: "Sarah L. &bull; South Elgin, IL",
     rev_verified: "Cliente Verificado",
     
     // Estimate Form
-    est_title: "Solicite un Presupuesto Gratis",
-    est_lead: "Complete el formulario y nos comunicaremos con usted a la brevedad para agendar una visita a domicilio y brindarle un presupuesto detallado.",
+    est_title: "Pida su Estimado Gratis",
+    est_lead: "Llene este formulario y nos comunicamos con usted rápido para pasar a ver el trabajo y darle su estimado sin costo.",
     lbl_name: "Su Nombre *",
     lbl_phone: "Número de Teléfono *",
     lbl_city: "Ciudad o Dirección",
-    lbl_service: "Servicio Necesario *",
-    lbl_details: "Detalles del Proyecto",
+    lbl_service: "Servicio que necesita *",
+    lbl_details: "Detalles del trabajo",
     ph_name: "Juan Pérez",
     ph_phone: "(630) 000-0000",
     ph_city: "ej. Elgin, IL",
-    ph_details: "Cuéntenos sobre su propiedad, número de pisos, problemas específicos o fecha preferida...",
-    opt_service_placeholder: "Seleccione un Servicio",
-    opt_seamless_gutters: "Instalación de Canaletas Sin Costuras",
-    opt_gutter_guards: "Protectores de Hojas / Guardas",
-    opt_roof_replacement: "Reemplazo Completo de Techo",
-    opt_roof_repair: "Reparación de Techos y Goteras",
-    opt_gutter_cleaning: "Limpieza y Mantenimiento de Canaletas",
+    ph_details: "Cuéntenos qué necesita, cuántos pisos tiene su casa o cuándo le gustaría empezar...",
+    opt_service_placeholder: "Seleccione un servicio",
+    opt_seamless_gutters: "Canaletas Sin Costuras",
+    opt_gutter_guards: "Protectores para Canaletas",
+    opt_roof_replacement: "Techo Nuevo / Reemplazo",
+    opt_roof_repair: "Reparación de Goteras / Techo",
+    opt_gutter_cleaning: "Limpieza de Canaletas",
     opt_soffit_fascia: "Reparación de Soffit y Fascia",
-    opt_multiple: "Múltiples Servicios / Inspección",
-    btn_submit_request: "Enviar Solicitud de Presupuesto",
-    form_note: "Sin compromiso. Respetamos su privacidad y nunca vendemos su información.",
+    opt_multiple: "Varios Servicios / Revisión",
+    btn_submit_request: "Enviar para Estimado Gratis",
+    form_note: "Sin compromiso. No compartimos su número ni su información.",
     
     // Estimate Call Box
-    callbox_title: "¿Prefiere Hablar Directamente?",
-    callbox_lead: "Llámenos directamente para reparaciones urgentes o presupuestos rápidos. Respondemos con prontitud o nos comunicamos el mismo día.",
+    callbox_title: "¿Prefiere Llamar Directamente?",
+    callbox_lead: "Llámenos con confianza para emergencias, goteras o si quiere agendar su estimado de una vez.",
     callbox_hours_title: "Horario de Atención",
-    callbox_hours_week: "Lunes &ndash; Sábado: 7:00 AM &ndash; 6:00 PM",
+    callbox_hours_week: "Lunes a Sábado: 7:00 AM &ndash; 6:00 PM",
     callbox_hours_sun: "Domingo: Cerrado (Emergencias disponibles)",
     callbox_areas_title: "Áreas de Cobertura",
-    callbox_areas_desc: "Con base en Elgin, IL &bull; Sirviendo a Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin y comunidades vecinas en Illinois.",
+    callbox_areas_desc: "Con base en Elgin, IL &bull; Trabajamos en Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin y alrededores.",
     
     // Footer
-    footer_desc: "Servicios profesionales de techado residencial y comercial, y canaletas sin costuras a medida en el norte de Illinois. Servicio confiable, precios justos y artesanía de primera.",
+    footer_desc: "Techos nuevos, reparación de goteras y canaletas sin costuras en Elgin y el norte de Illinois. Trabajo garantizado, precios justos y atención directa.",
     footer_services_title: "Servicios",
     footer_nav_title: "Navegación",
     footer_contact_title: "Contacto",
     footer_hours: "Lun &ndash; Sáb: 7:00 AM &ndash; 6:00 PM",
-    footer_copyright: "&copy; 2026 J Ortega's Services. Todos los derechos reservados. Propiedad y Operación Local en Elgin, IL.",
-    footer_serving: "Con base en Elgin &bull; Sirviendo a Elgin, Condado de Kane y Comunidades de Illinois",
+    footer_copyright: "&copy; 2026 J Ortega's Services. Todos los derechos reservados. Negocio Local en Elgin, IL.",
+    footer_serving: "Basados en Elgin &bull; Sirviendo a Elgin y condados vecinos en Illinois",
     
     // Mobile Sticky Bar
     sticky_call: "Llamar",
-    sticky_estimate: "Presupuesto",
+    sticky_estimate: "Estimado Gratis",
     
     // Gallery Page
-    gallery_title: "Galería de Proyectos",
+    gallery_title: "Galería de Trabajos",
     
     // Form Messages
-    msg_submitting: "Enviando Solicitud...",
-    msg_success_title: "¡Solicitud de Presupuesto Recibida!",
-    msg_success_desc: "¡Gracias! J Ortega revisará los detalles de su proyecto y le llamará en breve para coordinar su presupuesto gratuito a domicilio.",
-    msg_need_call: "¿Necesita atención inmediata? Llame al",
-    msg_error_call: "Error al enviar. Por favor llame directamente al (630) 597-8007."
+    msg_submitting: "Enviando solicitud...",
+    msg_success_title: "¡Solicitud Recibida!",
+    msg_success_desc: "¡Gracias! J Ortega revisará los detalles y le llamará pronto para coordinar su estimado gratis a domicilio.",
+    msg_need_call: "¿Prefiere llamar ahora? Marque al",
+    msg_error_call: "Hubo un error al enviar. Por favor llame directamente al (630) 597-8007."
   },
   en: {
     // Top Bar
@@ -134,7 +134,7 @@ const translations = {
     nav_gallery: "Gallery",
     nav_reviews: "Reviews",
     nav_contact: "Contact",
-    btn_request_estimate: "Request Free Estimate",
+    btn_request_estimate: "Free Estimate",
     
     // Hero Section
     hero_title: "Reliable Roofing &amp; Gutter Solutions That Protect Your Property Year-Round",
@@ -144,7 +144,7 @@ const translations = {
     hero_feat_3: "Free On-Site Inspections",
     
     // Services Section
-    services_title: "Our Services",
+    services_title: "Services",
     services_lead: "Professional roof and seamless gutter installations engineered to withstand all Illinois seasons.",
     svc1_title: "Seamless Gutter Installation",
     svc1_desc: "Custom 5-inch and 6-inch aluminum seamless gutters extruded right on-site to match your home's exact dimensions and prevent leaks.",
@@ -172,11 +172,11 @@ const translations = {
     why_item4_desc: "Magnetic roller sweeps across your lawn and driveway to ensure no stray nails or scrap metal are left behind.",
     stat_experience: "Years Experience",
     stat_rating: "Google Rating",
-    stat_estimates: "Estimates",
+    stat_estimates: "Free Estimates",
     
     // Reviews
     reviews_badge: "Google Reviews",
-    reviews_title: "What Our Clients Say",
+    reviews_title: "Customer Reviews",
     reviews_lead: "Real, verified feedback from homeowners and property managers across Elgin and Northern Illinois.",
     rev1_text: "\"J Ortega replaced our entire roof and gutters after a severe storm. His crew was on time, professional, and left our yard spotless. Highly recommended!\"",
     rev1_author: "Carlos M. &bull; Elgin, IL",
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Bilingual Spanish / English Engine (Spanish Default)
+  // 5. Bilingual Spanish / English Engine (Natural Spanish Default)
   const langToggleBtn = document.getElementById('langToggle');
 
   function applyLanguage(lang) {
