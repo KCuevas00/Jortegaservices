@@ -52,7 +52,14 @@ const translations = {
     why_item4_desc: "Pasamos rodillo con imán por su jardín y entrada para que no quede ningún clavo tirado. Cuidamos su propiedad.",
     stat_experience: "Años de Experiencia",
     stat_rating: "en Google",
-    stat_estimates: "Estimados Gratis",
+    stat_free: "Gratis",
+    stat_estimates: "Estimados",
+    
+    // Trust Strip
+    trust_residential: "Trabajos Residenciales y Comerciales",
+    trust_gutters: "Canaletas Hechas a la Medida en su Casa",
+    trust_repairs: "Reparación y Reemplazo de Techos",
+    trust_rated: "Contratista Calificado con 5 Estrellas",
     
     // Reviews
     reviews_badge: "Reseñas en Google",
@@ -106,6 +113,7 @@ const translations = {
     footer_hours: "Lun &ndash; Sáb: 7:00 AM &ndash; 6:00 PM",
     footer_copyright: "&copy; 2026 J Ortega's Services. Todos los derechos reservados. Negocio Local en Elgin, IL.",
     footer_serving: "Basados en Elgin &bull; Sirviendo a Elgin y condados vecinos en Illinois",
+    footer_area: "Elgin, IL y Áreas Cercanas",
     
     // Mobile Sticky Bar
     sticky_call: "Llamar",
@@ -172,7 +180,14 @@ const translations = {
     why_item4_desc: "Magnetic roller sweeps across your lawn and driveway to ensure no stray nails or scrap metal are left behind.",
     stat_experience: "Years Experience",
     stat_rating: "Google Rating",
-    stat_estimates: "Free Estimates",
+    stat_free: "Free",
+    stat_estimates: "Estimates",
+    
+    // Trust Strip
+    trust_residential: "Residential &amp; Commercial Exteriors",
+    trust_gutters: "Seamless Gutters Fabricated On-Site",
+    trust_repairs: "Roof Repairs &amp; Replacements",
+    trust_rated: "5-Star Rated Contractor",
     
     // Reviews
     reviews_badge: "Google Reviews",
@@ -226,6 +241,7 @@ const translations = {
     footer_hours: "Mon &ndash; Sat: 7:00 AM &ndash; 6:00 PM",
     footer_copyright: "&copy; 2026 J Ortega's Services. All rights reserved. Locally Owned &amp; Operated in Elgin, IL.",
     footer_serving: "Based in Elgin &bull; Serving Elgin, Kane County &amp; Surrounding Illinois Communities",
+    footer_area: "Elgin, IL &amp; Surrounding Areas",
     
     // Mobile Sticky Bar
     sticky_call: "Call Us",
