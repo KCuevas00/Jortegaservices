@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +63,7 @@
   }
   </script>
 
-  <link rel="stylesheet" href="styles.css?v=2.2">
+  <link rel="stylesheet" href="styles.css?v=2.3">
 </head>
 <body>
 
@@ -74,10 +74,10 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
         </svg>
-        <span>5.0 Google Reviews</span>
+        <span data-i18n="top_rating">5.0 Reseñas en Google</span>
       </div>
       <div class="top-bar-item top-bar-location">
-        <span>Based in Elgin, IL &bull; Serving Elgin &amp; Surrounding Illinois Areas</span>
+        <span data-i18n="top_location">Con base en Elgin, IL &bull; Sirviendo a Elgin y Áreas Cercanas en Illinois</span>
       </div>
       <div class="top-bar-right">
         <a href="tel:6305978007" class="top-phone-link">
@@ -99,22 +99,22 @@
           <span class="brand-name">
             <span class="accent-blue">J ORTEGAS</span> <span class="accent-red">SERVICES</span>
           </span>
-          <span class="brand-tag">Roofing &amp; Seamless Gutters</span>
+          <span class="brand-tag" data-i18n="brand_tag">Techado y Canaletas Sin Costuras</span>
         </div>
       </a>
 
       <!-- Desktop & Mobile Nav -->
       <nav class="main-nav" aria-label="Main Navigation">
         <ul class="nav-list">
-          <li><a href="index.html" class="nav-link active">Home</a></li>
-          <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
-          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li><a href="#reviews" class="nav-link">Reviews</a></li>
-          <li><a href="#estimate" class="nav-link">Contact</a></li>
+          <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#services" class="nav-link" data-i18n="nav_services">Servicios</a></li>
+          <li><a href="#why-us" class="nav-link" data-i18n="nav_why_us">¿Por Qué Elegirnos?</a></li>
+          <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Galería</a></li>
+          <li><a href="#reviews" class="nav-link" data-i18n="nav_reviews">Reseñas</a></li>
+          <li><a href="#estimate" class="nav-link" data-i18n="nav_contact">Contacto</a></li>
         </ul>
         <div class="nav-cta-wrap">
-          <a href="#estimate" class="btn btn-red btn-sm">Request Free Estimate</a>
+          <a href="#estimate" class="btn btn-red btn-sm" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
         </div>
       </nav>
 
@@ -134,13 +134,13 @@
     <section class="hero-section" aria-label="Hero Introduction">
       <div class="container hero-grid">
         <div class="hero-content">
-          <h1>Reliable Roofing &amp; Gutter Solutions That Protect Your Property Year-Round</h1>
-          <p class="hero-lead">
-            High-quality roof replacements, dependable leak repairs, and custom on-site seamless gutters for homes and commercial properties in Elgin, IL and surrounding Illinois communities.
+          <h1 data-i18n="hero_title">Soluciones Confiables de Techado y Canaletas Que Protegen Su Propiedad Todo el Año</h1>
+          <p class="hero-lead" data-i18n="hero_lead">
+            Reemplazos de techos de alta calidad, reparación confiable de goteras y canaletas sin costuras hechas a la medida para residencias y comercios en Elgin, IL y comunidades cercanas.
           </p>
 
           <div class="hero-actions">
-            <a href="#estimate" class="btn btn-red btn-lg">Request Free Estimate</a>
+            <a href="#estimate" class="btn btn-red btn-lg" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             <a href="tel:6305978007" class="btn btn-blue btn-lg">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -156,7 +156,7 @@
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
               </div>
-              <span class="feature-text">Locally Owned &amp; Operated</span>
+              <span class="feature-text" data-i18n="hero_feat_1">Propiedad y Operación Local</span>
             </div>
             <div class="hero-feature-item">
               <div class="feature-check">
@@ -164,7 +164,7 @@
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
               </div>
-              <span class="feature-text">10+ Years Experience</span>
+              <span class="feature-text" data-i18n="hero_feat_2">Más de 10 Años de Experiencia</span>
             </div>
             <div class="hero-feature-item">
               <div class="feature-check">
@@ -172,7 +172,7 @@
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
               </div>
-              <span class="feature-text">Free On-Site Inspections</span>
+              <span class="feature-text" data-i18n="hero_feat_3">Inspecciones Gratis a Domicilio</span>
             </div>
           </div>
         </div>
@@ -222,10 +222,10 @@
                 <path d="M9 22V12h6v10"></path>
               </svg>
             </div>
-            <h3>Seamless Gutter Installation</h3>
-            <p>Custom 5-inch and 6-inch aluminum seamless gutters extruded right on-site to match your home's exact dimensions and prevent leaks.</p>
+            <h3 data-i18n="svc1_title">Instalación de Canaletas Sin Costuras</h3>
+            <p data-i18n="svc1_desc">Canaletas de aluminio de 5 y 6 pulgadas fabricadas a la medida en el lugar exacto de su propiedad para evitar filtraciones y desbordes.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
 
@@ -237,10 +237,10 @@
                 <path d="M4 11v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9"></path>
               </svg>
             </div>
-            <h3>Roof Replacement &amp; New Roofs</h3>
-            <p>Full tear-offs and fresh architectural shingle roof installations with durable synthetic underlayment, ice and water shielding, and clean disposal.</p>
+            <h3 data-i18n="svc2_title">Reemplazo de Techos y Nuevos Techos</h3>
+            <p data-i18n="svc2_desc">Retiro completo del techo viejo e instalación de tejas arquitectónicas con barrera impermeable sintética contra hielo y agua, y limpieza total.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
 
@@ -251,10 +251,10 @@
                 <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
               </svg>
             </div>
-            <h3>Roof Repair &amp; Leak Detection</h3>
-            <p>Prompt repairs for storm-damaged shingles, chimney flashing, pipe boot collars, ridge caps, and persistent roof leaks before water damages your drywall.</p>
+            <h3 data-i18n="svc3_title">Reparación de Techos y Detección de Goteras</h3>
+            <p data-i18n="svc3_desc">Reparación rápida de tejas dañadas por tormentas, tapajuntas de chimeneas, botas de tuberías y goteras antes de que dañen sus paredes.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
 
@@ -267,10 +267,10 @@
                 <polyline points="2 12 12 17 22 12"></polyline>
               </svg>
             </div>
-            <h3>Gutter Guards &amp; Leaf Protection</h3>
-            <p>Heavy-duty micro-mesh and perforated leaf guards installed securely over gutters to block pine needles, leaves, and critters while maintaining water flow.</p>
+            <h3 data-i18n="svc4_title">Protectores de Hojas para Canaletas</h3>
+            <p data-i18n="svc4_desc">Mallas de aluminio de alta resistencia instaladas sobre las canaletas para bloquear hojas, agujas de pino y animales manteniendo el flujo de agua.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
 
@@ -281,10 +281,10 @@
                 <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
               </svg>
             </div>
-            <h3>Gutter Cleaning &amp; Downspouts</h3>
-            <p>Complete removal of accumulated muck and debris, thorough downspout flushing, slope adjustments, and re-securing loose gutter spikes or brackets.</p>
+            <h3 data-i18n="svc5_title">Limpieza de Canaletas y Bajantes</h3>
+            <p data-i18n="svc5_desc">Retiro completo de hojas y lodo acumulado, lavado de bajantes, ajuste de pendientes y refuerzo de clavos o soportes sueltos.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
 
@@ -297,10 +297,10 @@
                 <line x1="9" y1="21" x2="9" y2="9"></line>
               </svg>
             </div>
-            <h3>Soffit &amp; Fascia Board Repair</h3>
-            <p>Replacement of water-damaged or rotted wood fascia boards behind gutters, custom aluminum trim wrapping, and proper attic ventilation panels.</p>
+            <h3 data-i18n="svc6_title">Reparación de Soffit y Fascia</h3>
+            <p data-i18n="svc6_desc">Reemplazo de maderas dañadas o podridas en aleros detrás de las canaletas, forrado de aluminio a la medida y paneles de ventilación del ático.</p>
             <div class="service-card-footer">
-              <a href="#estimate" class="btn btn-red">Request Free Estimate</a>
+              <a href="#estimate" class="btn btn-red" data-i18n="btn_request_estimate">Solicitar Presupuesto Gratis</a>
             </div>
           </article>
         </div>
@@ -311,8 +311,8 @@
     <section id="why-us" class="why-section">
       <div class="container why-grid">
         <div class="why-content">
-          <h2>Why Choose Us</h2>
-          <p>We believe in straightforward, dependable work without high-pressure sales tactics or cutting corners on materials.</p>
+          <h2 data-i18n="why_title">¿Por Qué Elegirnos?</h2>
+          <p data-i18n="why_lead">Creemos en un trabajo honesto, confiable y directo, sin tácticas agresivas de venta ni rebajar la calidad de los materiales.</p>
 
           <div class="why-list">
             <div class="why-item">
@@ -322,8 +322,8 @@
                 </svg>
               </div>
               <div class="why-item-content">
-                <h4>Locally Owned &amp; Operated</h4>
-                <p>Dedicated local roofing and gutter craftsmanship proudly serving Elgin and surrounding Illinois communities.</p>
+                <h4 data-i18n="why_item1_title">Propiedad y Operación Local</h4>
+                <p data-i18n="why_item1_desc">Artesanía dedicada en techos y canaletas sirviendo con orgullo a Elgin y comunidades vecinas en Illinois.</p>
               </div>
             </div>
 
@@ -334,8 +334,8 @@
                 </svg>
               </div>
               <div class="why-item-content">
-                <h4>Direct Owner Oversight</h4>
-                <p>J Ortega personally oversees every job site to ensure proper nailing patterns, pitch alignment, and quality control.</p>
+                <h4 data-i18n="why_item2_title">Supervisión Directa del Propietario</h4>
+                <p data-i18n="why_item2_desc">J Ortega supervisa personalmente cada obra para garantizar el clavado adecuado, la alineación de pendientes y un control estricto de calidad.</p>
               </div>
             </div>
 
@@ -346,8 +346,8 @@
                 </svg>
               </div>
               <div class="why-item-content">
-                <h4>Fair, Upfront Written Estimates</h4>
-                <p>Clear line-item pricing with no hidden charges, surprise fees, or unexpected change orders.</p>
+                <h4 data-i18n="why_item3_title">Presupuestos Escritos y Claros</h4>
+                <p data-i18n="why_item3_desc">Precios detallados por partida, sin cargos ocultos, sorpresas ni órdenes de cambio imprevistas.</p>
               </div>
             </div>
 
@@ -358,8 +358,8 @@
                 </svg>
               </div>
               <div class="why-item-content">
-                <h4>Thorough Site Cleanup</h4>
-                <p>Magnetic roller sweeps across your lawn and driveway to ensure no stray nails or scrap metal are left behind.</p>
+                <h4 data-i18n="why_item4_title">Limpieza Minuciosa del Terreno</h4>
+                <p data-i18n="why_item4_desc">Barrido magnético completo en césped y estacionamiento para que no quede ningún clavo o residuo de metal.</p>
               </div>
             </div>
           </div>
@@ -372,15 +372,15 @@
           <div class="why-stat-row">
             <div class="why-stat">
               <span class="why-stat-num">10+</span>
-              <span class="why-stat-label">Years Experience</span>
+              <span class="why-stat-label" data-i18n="stat_experience">Años de Experiencia</span>
             </div>
             <div class="why-stat">
               <span class="why-stat-num">5.0</span>
-              <span class="why-stat-label">Google Rating</span>
+              <span class="why-stat-label" data-i18n="stat_rating">Calificación Google</span>
             </div>
             <div class="why-stat">
               <span class="why-stat-num">Free</span>
-              <span class="why-stat-label">Estimates</span>
+              <span class="why-stat-label" data-i18n="stat_estimates">Presupuestos</span>
             </div>
           </div>
         </div>
@@ -438,7 +438,7 @@
               <strong>5.0</strong>
             </div>
           </div>
-          <h2>Customer Reviews</h2>
+          <h2 data-i18n="reviews_title">Lo Que Dicen Nuestros Clientes</h2>
           <p>Verified reviews from homeowners in Elgin and surrounding Illinois areas.</p>
         </header>
 
@@ -513,9 +513,9 @@
     <section id="estimate" class="estimate-section">
       <div class="container estimate-grid">
         <div class="estimate-card">
-          <h2>Request a Free Estimate</h2>
-          <p style="color: #475569; margin-bottom: 24px; font-size: 0.95rem;">
-            Fill out the form below and we will contact you promptly to schedule an on-site visit and provide a detailed written estimate.
+          <h2 data-i18n="est_title">Solicite un Presupuesto Gratis</h2>
+          <p style="color: #475569; margin-bottom: 24px; font-size: 0.95rem;" data-i18n="est_lead">
+            Complete el formulario y nos comunicaremos con usted a la brevedad para agendar una visita a domicilio y brindarle un presupuesto detallado.
           </p>
 
           <form id="estimateForm" action="https://api.web3forms.com/submit" method="POST">
@@ -528,51 +528,51 @@
 
             <div class="form-row">
               <div class="form-group">
-                <label for="fullName">Your Name *</label>
-                <input type="text" id="fullName" name="name" required placeholder="John Doe">
+                <label for="fullName" data-i18n="lbl_name">Su Nombre *</label>
+                <input type="text" id="fullName" name="name" required placeholder="Juan Pérez" data-i18n-ph="ph_name">
               </div>
               <div class="form-group">
-                <label for="phoneNumber">Phone Number *</label>
-                <input type="tel" id="phoneNumber" name="phone" required placeholder="(630) 000-0000">
+                <label for="phoneNumber" data-i18n="lbl_phone">Número de Teléfono *</label>
+                <input type="tel" id="phoneNumber" name="phone" required placeholder="(630) 000-0000" data-i18n-ph="ph_phone">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
-                <label for="cityAddress">City or Address</label>
-                <input type="text" id="cityAddress" name="city_address" placeholder="e.g. Elgin, IL">
+                <label for="cityAddress" data-i18n="lbl_city">Ciudad o Dirección</label>
+                <input type="text" id="cityAddress" name="city_address" placeholder="ej. Elgin, IL" data-i18n-ph="ph_city">
               </div>
               <div class="form-group">
-                <label for="serviceType">Service Needed *</label>
+                <label for="serviceType" data-i18n="lbl_service">Servicio Necesario *</label>
                 <select id="serviceType" name="service_needed" required>
-                  <option value="" disabled selected>Select a Service</option>
-                  <option value="Seamless Gutters">Seamless Gutter Installation</option>
-                  <option value="Gutter Guards">Gutter Guards / Leaf Protection</option>
-                  <option value="Roof Replacement">Roof Replacement / New Roof</option>
-                  <option value="Roof Repair">Roof Repair &amp; Leak Fix</option>
-                  <option value="Gutter Cleaning">Gutter Cleaning &amp; Tune-Up</option>
-                  <option value="Soffit &amp; Fascia">Soffit &amp; Fascia Repair</option>
-                  <option value="Multiple Services">Multiple Services / Inspection</option>
+                  <option value="" disabled selected data-i18n-opt="opt_service_placeholder">Seleccione un Servicio</option>
+                  <option value="Seamless Gutters" data-i18n-opt="opt_seamless_gutters">Instalación de Canaletas Sin Costuras</option>
+                  <option value="Gutter Guards" data-i18n-opt="opt_gutter_guards">Protectores de Hojas / Guardas</option>
+                  <option value="Roof Replacement" data-i18n-opt="opt_roof_replacement">Reemplazo Completo de Techo</option>
+                  <option value="Roof Repair" data-i18n-opt="opt_roof_repair">Reparación de Techos y Goteras</option>
+                  <option value="Gutter Cleaning" data-i18n-opt="opt_gutter_cleaning">Limpieza y Mantenimiento de Canaletas</option>
+                  <option value="Soffit &amp; Fascia" data-i18n-opt="opt_soffit_fascia">Reparación de Soffit y Fascia</option>
+                  <option value="Multiple Services" data-i18n-opt="opt_multiple">Múltiples Servicios / Inspección</option>
                 </select>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="projectDetails">Project Details</label>
-              <textarea id="projectDetails" name="message" placeholder="Tell us about your home, number of stories, specific issues, or preferred timing..."></textarea>
+              <label for="projectDetails" data-i18n="lbl_details">Detalles del Proyecto</label>
+              <textarea id="projectDetails" name="message" placeholder="Cuéntenos sobre su propiedad, número de pisos, problemas específicos o fecha preferida..." data-i18n-ph="ph_details"></textarea>
             </div>
 
             <button type="submit" class="btn btn-red btn-lg form-submit-btn">
-              Submit Free Estimate Request
+              <span data-i18n="btn_submit_request">Enviar Solicitud de Presupuesto</span>
             </button>
-            <p class="form-note">No obligation. We respect your privacy and never sell your information.</p>
+            <p class="form-note" data-i18n="form_note">Sin compromiso. Respetamos su privacidad y nunca vendemos su información.</p>
           </form>
         </div>
 
         <div class="estimate-call-box">
-          <h3>Prefer to Speak Right Now?</h3>
-          <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;">
-            Give us a call directly for emergency leak repairs or quick scheduling. We answer calls promptly or get back to you the same business day.
+          <h3 data-i18n="callbox_title">¿Prefiere Hablar Directamente?</h3>
+          <p style="color: #475569; font-size: 0.95rem; line-height: 1.6;" data-i18n="callbox_lead">
+            Llámenos directamente para reparaciones urgentes o presupuestos rápidos. Respondemos con prontitud o nos comunicamos el mismo día.
           </p>
 
           <a href="tel:6305978007" class="call-big-number">
@@ -583,14 +583,14 @@
           </a>
 
           <div class="service-hours-box">
-            <h4>Hours of Operation</h4>
-            <p>Monday &ndash; Saturday: 7:00 AM &ndash; 6:00 PM</p>
-            <p>Sunday: Closed (Emergency calls available)</p>
+            <h4 data-i18n="callbox_hours_title">Horario de Atención</h4>
+            <p data-i18n="callbox_hours_week">Lunes &ndash; Sábado: 7:00 AM &ndash; 6:00 PM</p>
+            <p data-i18n="callbox_hours_sun">Domingo: Cerrado (Emergencias disponibles)</p>
           </div>
 
           <div class="service-hours-box">
-            <h4>Service Areas</h4>
-            <p>Based in Elgin, IL &bull; Serving Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin, and surrounding Illinois communities.</p>
+            <h4 data-i18n="callbox_areas_title">Áreas de Cobertura</h4>
+            <p data-i18n="callbox_areas_desc">Con base en Elgin, IL &bull; Sirviendo a Elgin, South Elgin, Bartlett, Streamwood, St. Charles, Geneva, Schaumburg, Hoffman Estates, Carpentersville, Algonquin y comunidades vecinas en Illinois.</p>
           </div>
         </div>
       </div>
@@ -608,35 +608,35 @@
           </span>
           <span class="brand-tag" style="color: #94a3b8;">Roofing &amp; Seamless Gutters</span>
         </div>
-        <p>
-          Professional residential and commercial roofing and custom seamless gutter solutions in Northern Illinois. Dependable service, fair pricing, and top quality craftsmanship.
+        <p data-i18n="footer_desc">
+          Servicios profesionales de techado residencial y comercial, y canaletas sin costuras a medida en el norte de Illinois. Servicio confiable, precios justos y artesanía de primera.
         </p>
       </div>
 
       <div class="footer-col">
-        <h4>Services</h4>
+        <h4 data-i18n="footer_services_title">Servicios</h4>
         <ul class="footer-links">
-          <li><a href="#services">Seamless Gutters</a></li>
-          <li><a href="#services">Roof Replacement</a></li>
-          <li><a href="#services">Roof Repair</a></li>
-          <li><a href="#services">Gutter Guards</a></li>
-          <li><a href="#services">Soffit &amp; Fascia</a></li>
+          <li><a href="#services" data-i18n="opt_seamless_gutters">Canaletas Sin Costuras</a></li>
+          <li><a href="#services" data-i18n="opt_roof_replacement">Reemplazo de Techo</a></li>
+          <li><a href="#services" data-i18n="opt_roof_repair">Reparación de Techos</a></li>
+          <li><a href="#services" data-i18n="opt_gutter_guards">Protectores de Canaletas</a></li>
+          <li><a href="#services" data-i18n="opt_soffit_fascia">Soffit y Fascia</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Navigation</h4>
+        <h4 data-i18n="footer_nav_title">Navegación</h4>
         <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#why-us">Why Choose Us</a></li>
-          <li><a href="gallery.html">Project Gallery</a></li>
-          <li><a href="#estimate">Free Estimate</a></li>
+          <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#services" data-i18n="nav_services">Servicios</a></li>
+          <li><a href="#why-us" data-i18n="nav_why_us">¿Por Qué Elegirnos?</a></li>
+          <li><a href="gallery.html" data-i18n="nav_gallery">Galería de Proyectos</a></li>
+          <li><a href="#estimate" data-i18n="btn_request_estimate">Presupuesto Gratis</a></li>
         </ul>
       </div>
 
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="footer_contact_title">Contacto</h4>
         <div class="footer-contact-item">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -655,14 +655,14 @@
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
-          <span>Mon &ndash; Sat: 7:00 AM &ndash; 6:00 PM</span>
+          <span data-i18n="footer_hours">Lun &ndash; Sáb: 7:00 AM &ndash; 6:00 PM</span>
         </div>
       </div>
     </div>
 
     <div class="container footer-bottom">
-      <p>&copy; 2026 J Ortega's Services. All rights reserved. Locally Owned &amp; Operated in Elgin, IL.</p>
-      <p>Based in Elgin &bull; Serving Elgin, Kane County &amp; Surrounding Illinois Communities</p>
+      <p data-i18n="footer_copyright">&copy; 2026 J Ortega's Services. Todos los derechos reservados. Propiedad y Operación Local en Elgin, IL.</p>
+      <p data-i18n="footer_serving">Con base en Elgin &bull; Sirviendo a Elgin, Condado de Kane y Comunidades de Illinois</p>
     </div>
   </footer>
 
@@ -673,12 +673,26 @@
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
         </svg>
-        Call Us
+        <span data-i18n="sticky_call">Llamar</span>
       </a>
-      <a href="#estimate" class="btn btn-red btn-sm">Free Estimate</a>
+      <a href="#estimate" class="btn btn-red btn-sm" data-i18n="sticky_estimate">Presupuesto</a>
     </div>
   </div>
 
-  <script src="main.js"></script>
+    <!-- Floating Language Toggle Button (Spanish Default) -->
+  <button id="langToggle" class="floating-lang-btn" aria-label="Cambiar idioma a Inglés / Switch to English" title="Español / English">
+    <svg class="lang-globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="2" y1="12" x2="22" y2="12"></line>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+    </svg>
+    <span class="lang-pill">
+      <span class="lang-opt es active">ES</span>
+      <span class="lang-divider">/</span>
+      <span class="lang-opt en">EN</span>
+    </span>
+  </button>
+
+  <script src="main.js?v=2.3"></script>
 </body>
 </html>

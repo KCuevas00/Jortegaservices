@@ -1749,3 +1749,82 @@ textarea {
     padding: 0 6px;
   }
 }
+
+/* ==========================================================================
+   FLOATING LANGUAGE TOGGLE (SPANISH / ENGLISH)
+   ========================================================================== */
+.floating-lang-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 9999px;
+  padding: 8px 14px;
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.16);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.floating-lang-btn:hover {
+  transform: translateY(-2px);
+  border-color: #1d4ed8;
+  box-shadow: 0 6px 22px rgba(29, 78, 216, 0.22);
+}
+
+.floating-lang-btn:active {
+  transform: translateY(0);
+}
+
+.lang-globe-icon {
+  width: 17px;
+  height: 17px;
+  color: #1d4ed8;
+  flex-shrink: 0;
+}
+
+.lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lang-opt {
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: #64748b;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.lang-opt.active {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.lang-divider {
+  color: #cbd5e1;
+  font-weight: 400;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 768px) {
+  .floating-lang-btn {
+    bottom: 74px; /* Sits cleanly above sticky bottom call bar */
+    right: 14px;
+    padding: 7px 12px;
+    font-size: 0.82rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+}
